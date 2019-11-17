@@ -1,4 +1,4 @@
-import sequences
+from examples import sequences
 
 def test_golomb_seq():
     assert sequences.golomb_seq(1) == [1]
